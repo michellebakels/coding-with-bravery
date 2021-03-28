@@ -1,38 +1,99 @@
-.App {
+* {
   text-align: center;
+  background: #161d28;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-size: 16px;
+  color: white;
+  padding: 0 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+  background: #f0f0f0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 300px;
+  height: 575px;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  padding: 0 32px;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.item {
+  max-height: 250px;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  background: #f0f0f0;
+}
+
+.name {
+  text-align: center;
+  padding-top: 12px;
+  font-weight: bolder;
+  background: #f0f0f0;
+  letter-spacing: 2px;
+}
+
+p {
+  padding: 0 16px;
+  background: #f0f0f0;
+}
+
+.learn-more{
+  background: #232c3b;
+  color: white;
+  padding: 10px 24px;
+}
+
+.explore {
+  color: white;
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  background: #ff6c3a;
+  border-radius: 0;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: bold;
+  background: #f0f0f0;
+}
+
+a{
+  color: white;
+}
+
+.card-tag{
+  background: #f0f0f0;
 }
