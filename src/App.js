@@ -15,8 +15,6 @@ function App() {
 
     const [figure, setFigure] = useState(undefined)
 
-    console.log({figure})
-
   return (
     <>
         <h1>Inspirational Bravery</h1>
@@ -39,7 +37,7 @@ function App() {
             </div>
         }
         <button onClick={() => generateFigure(figure, setFigure)} className="explore">EXPLORE</button>
-        <footer>Thank you to Nicholas Monacky for contributing to <a href="http://coding-with.web.app/" target="_blank">Coding with Bravery</a></footer>
+        <footer>Thank you to Nicholas Mohnacky for contributing to <a href="http://coding-with.web.app/" target="_blank">Coding with Bravery</a></footer>
     </>
   );
 }
